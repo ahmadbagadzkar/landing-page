@@ -21,7 +21,7 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin:auto 30px;
+    margin:10px 30px 20px;
 }
 
 .hero h1{
@@ -66,18 +66,19 @@ button{
     padding: 10px 20px;
     width: fit-content;
     border-radius: 10px;
+    border-color: #e5e7eb;
 }
 
 /* Document Section */
 
-section{
+.main-info{
     display: flex;
     flex-direction: column;
     margin: 40px 0px;
     padding:20px 50px 40px 50px;
 }
 
-section h1{
+.main-info h1{
     text-align: center;
 }
 
@@ -96,4 +97,47 @@ section h1{
 .information div img{
     width: auto;
     height: 150px;
+}
+
+/* Quotes Section */
+
+.quotes{
+    background-color: #e5e7eb;
+    padding: 80px 120px;
+}
+
+.quotes p:first-child{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quotes p:last-child{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: end;
+}
+
+/* Call action section */
+
+.call{
+    margin: 80px 240px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 48px 120px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call h3{
+    font-size: 24px;
+}
+
+/* footer */
+footer{
+    color: #e5e7eb;
+    padding: 40px;
+    background-color: #1f2937;
+    text-align: center;
 }
