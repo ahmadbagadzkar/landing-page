@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero{
+    background-color: #1f2937;
+    padding:20px 80px 40px;
+}
+
+.hero div{
+    display: flex;
+    gap: 30px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto 30px;
+}
+
+.hero h1{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.main-hero{
+    display: grid;
+    margin: 30px;
+}
+
+.main-hero div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-hero div:first-child h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.main-hero div:first-child p, a
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-hero div:nth-child(2){
+    width: 800px;
+    height: 400px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+/* Document Section */
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+    padding:20px 50px 40px 50px;
+}
+
+section h1{
+    text-align: center;
+}
+
+.information{
+    display: grid;
+    grid-template-columns:350px 350px 350px 350px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.information div p{
+    margin: 10px 20px;
+    padding: 0px 40px;
+}
+
+.information div img{
+    width: auto;
+    height: 150px;
+}
